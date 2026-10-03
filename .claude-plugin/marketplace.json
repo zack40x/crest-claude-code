@@ -1,0 +1,21 @@
+{
+  "name": "crest-notch",
+  "owner": {
+    "name": "zack40x",
+    "url": "https://github.com/zack40x"
+  },
+  "description": "Crest for Claude Code: answer permission prompts and questions from your MacBook notch. Made by zack40x, the maker of Crest.",
+  "plugins": [
+    {
+      "name": "crest",
+      "source": "./",
+      "category": "productivity",
+      "tags": [
+        "macos",
+        "notch",
+        "permissions",
+        "approvals"
+      ]
+    }
+  ]
+}

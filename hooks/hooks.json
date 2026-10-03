@@ -1,0 +1,40 @@
+{
+  "description": "Hand Claude Code's prompts to the Crest app on this Mac, unless Crest already hooks them itself. Steps aside (no output, exit 0) whenever Crest is missing, too old, switched off or not running.",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash|Edit|Write|MultiEdit|NotebookEdit|WebFetch|WebSearch|AskUserQuestion",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"${CLAUDE_PLUGIN_ROOT}/scripts/crest-hook.sh\" pre || true",
+            "timeout": 86400
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "AskUserQuestion",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"${CLAUDE_PLUGIN_ROOT}/scripts/crest-hook.sh\" post || true",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "Notification": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"${CLAUDE_PLUGIN_ROOT}/scripts/crest-hook.sh\" notify || true",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
