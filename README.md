@@ -45,7 +45,7 @@ Then run `/crest:setup` and follow what it says.
 
 ## Privacy
 
-The plugin sends nothing anywhere: no telemetry, no network calls. It reads a few local files to decide what to do (Crest's version from `Crest.app`, your Claude Code `settings.json`, Crest's "answer on the notch" preference and its heartbeat file) and hands the prompt to Crest on the same Mac. What Crest does with a prompt is covered by Crest's own privacy policy at https://crestnotch.app/legal.
+The plugin sends nothing anywhere: no telemetry, no network calls. It reads a few local files to decide what to do (Crest's version from `Crest.app`, your Claude Code `settings.json`, Crest's "answer on the notch" preference and its heartbeat file) and hands the prompt to Crest on the same Mac, through Crest's own folder in `~/Library/Application Support/Crest` (the same files Crest's own hook writes). It keeps nothing of its own. What Crest does with a prompt is covered by Crest's own privacy policy at https://crestnotch.app/legal.
 
 ## Uninstall
 
