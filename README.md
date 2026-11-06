@@ -1,8 +1,8 @@
 # Crest notch approvals for Claude Code
 
-Answer Claude Code's permission prompts and questions from your MacBook notch, with [Crest](https://crestnotch.app/claude-code-notch?ref=cc-plugin). The plugin is free, and so is this part of Crest: answering Claude Code from the notch works on Crest's free tier, with no account.
+Answer Claude Code's permission prompts and questions from your MacBook notch, with [Crest](https://crestnotch.app/claude-code-notch?ref=cc-plugin). The plugin is MIT licensed. Crest itself is a paid Mac app: answering Claude Code from the notch is part of Crest Pro, and every new install starts with a 7-day trial with no account or card.
 
-Made by zack40x, the maker of Crest.
+Crest, the notch app for MacBook (crestnotch.app). Made by zack40x, the maker of Crest.
 
 ## What it does
 
@@ -18,7 +18,7 @@ The plugin does not draw anything or answer anything itself. It runs Crest's own
 
 ## Install
 
-You need a Mac with [Crest](https://crestnotch.app/download?ref=cc-plugin) 5.2.0 or newer (free download).
+You need a Mac with [Crest](https://crestnotch.app/download?ref=cc-plugin) 5.2.0 or newer (7-day trial, then Crest Pro).
 
 In Claude Code:
 

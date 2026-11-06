@@ -2,7 +2,7 @@
   "name": "crest",
   "displayName": "Crest notch approvals",
   "version": "1.0.0",
-  "description": "Answer Claude Code's permission prompts and questions from your MacBook notch, with Crest (free download). The plugin hands prompts to the Crest app on your Mac and sends nothing anywhere.",
+  "description": "Answer Claude Code's permission prompts and questions from your MacBook notch, with Crest, the notch app for MacBook (crestnotch.app). The plugin hands prompts to the Crest app on your Mac and sends nothing anywhere.",
   "author": {
     "name": "zack40x",
     "url": "https://github.com/zack40x"

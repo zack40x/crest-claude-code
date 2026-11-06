@@ -34,7 +34,7 @@ case "$state" in
   no_app)
     echo "Crest is not installed."
     echo "Crest puts Claude Code's permission prompts and questions on your MacBook notch, so you can answer them without switching to the terminal."
-    echo "Download it free: $CREST_DOWNLOAD_URL"
+    echo "Download it (7-day trial, no card): $CREST_DOWNLOAD_URL"
     echo "Until then this plugin does nothing and Claude Code asks in the terminal as usual."
     next=url
     ;;
